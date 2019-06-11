@@ -20,4 +20,5 @@ async def test1(request):
     return json(msg, ensure_ascii=False)
 
 if __name__ == '__main__':
-    app.run(host='192.168.11.195', port=8899)
+    app.run(host='35.184.71.227', port=8899)
+    # app.run(host='192.168.11.195', port=8899)
